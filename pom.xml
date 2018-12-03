@@ -3,7 +3,7 @@
   <groupId>net.etsi</groupId>
   <artifactId>btpsap-common-free</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>btpsap</name>
+  <name>btpsap-common-free</name>
     <dependencies>
     </dependencies>
     <build>
