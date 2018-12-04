@@ -14,14 +14,14 @@
  * limitations under the License.
  *
  */
-package net.etsi.btpsap.common;
+package net.etsi.btpsap;
 
-import net.etsi.btpsap.common.BtpSapTypes.BtpType;
-import net.etsi.btpsap.common.BtpSapTypes.GnCommunicationsProfile;
-import net.etsi.btpsap.common.BtpSapTypes.GnDestination;
-import net.etsi.btpsap.common.BtpSapTypes.GnSecurityProfile;
-import net.etsi.btpsap.common.BtpSapTypes.GnTrafficClass;
-import net.etsi.btpsap.common.BtpSapTypes.GnTransportType;
+import net.etsi.btpsap.BtpSapTypes.BtpType;
+import net.etsi.btpsap.BtpSapTypes.GnCommunicationsProfile;
+import net.etsi.btpsap.BtpSapTypes.GnDestination;
+import net.etsi.btpsap.BtpSapTypes.GnSecurityProfile;
+import net.etsi.btpsap.BtpSapTypes.GnTrafficClass;
+import net.etsi.btpsap.BtpSapTypes.GnTransportType;
 
 public class BtpSap_DataReqContainer
 {

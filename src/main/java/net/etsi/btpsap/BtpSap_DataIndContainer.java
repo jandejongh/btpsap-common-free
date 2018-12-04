@@ -14,14 +14,14 @@
  * limitations under the License.
  *
  */
-package net.etsi.btpsap.common;
+package net.etsi.btpsap;
 
-import net.etsi.btpsap.common.BtpSapTypes.GnCertificateId;
-import net.etsi.btpsap.common.BtpSapTypes.GnDestination;
-import net.etsi.btpsap.common.BtpSapTypes.GnPermissions;
-import net.etsi.btpsap.common.BtpSapTypes.GnPositionVector;
-import net.etsi.btpsap.common.BtpSapTypes.GnSecurityReport;
-import net.etsi.btpsap.common.BtpSapTypes.GnTrafficClass;
+import net.etsi.btpsap.BtpSapTypes.GnCertificateId;
+import net.etsi.btpsap.BtpSapTypes.GnDestination;
+import net.etsi.btpsap.BtpSapTypes.GnPermissions;
+import net.etsi.btpsap.BtpSapTypes.GnPositionVector;
+import net.etsi.btpsap.BtpSapTypes.GnSecurityReport;
+import net.etsi.btpsap.BtpSapTypes.GnTrafficClass;
 
 public class BtpSap_DataIndContainer
 {

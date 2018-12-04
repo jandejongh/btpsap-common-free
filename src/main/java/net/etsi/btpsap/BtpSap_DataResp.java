@@ -14,18 +14,12 @@
  * limitations under the License.
  *
  */
-package net.etsi.btpsap.common;
+package net.etsi.btpsap;
 
-/** Java binding for a BTP (Basic Transport Protocol) SAP (Service Access Point entity).
- *
- * <p>
- * After ETSI EN 302 636-5-1, V1.2.1 (2014-08).
- * 
- * @author Jan de Jongh, TNO
+/**
  *
  */
-public interface BtpSap
-extends BtpSap_DataReq, BtpSap_DataInd
+public class BtpSap_DataResp
 {
   
 }

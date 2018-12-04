@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package net.etsi.btpsap.common;
+package net.etsi.btpsap;
 
 /** Java binding for a BTP (Basic Transport Protocol) SAP (Service Access Point entity) Data Indication.
  *

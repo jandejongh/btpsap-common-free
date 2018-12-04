@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package net.etsi.btpsap.common;
+package net.etsi.btpsap;
 
 import java.io.IOException;
 
