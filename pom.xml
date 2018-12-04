@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.etsi</groupId>
   <artifactId>btpsap-common-free</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>5.0.0-SNAPSHOT</version>
   <name>btpsap-common-free</name>
     <dependencies>
     </dependencies>
