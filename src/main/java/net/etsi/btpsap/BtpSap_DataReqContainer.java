@@ -200,6 +200,11 @@ public class BtpSap_DataReqContainer
   
   private final GnCommunicationsProfile gnCommProfile;
     
+  public final GnCommunicationsProfile getCommunicationsProfile ()
+  {
+    return this.gnCommProfile;
+  }
+  
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   //
   // GN SECURITY PROFILE [OPTIONAL]
@@ -301,6 +306,9 @@ public class BtpSap_DataReqContainer
     return this.offset;
   }
   
+  /** The payload.
+   * 
+   */
   private final byte data[];
   
   public final byte[] getData ()
