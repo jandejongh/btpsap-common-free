@@ -728,13 +728,17 @@ public class UdpTnoDataReq
     long payloadAndPaddingLength = payloadLength;
     while (payloadAndPaddingLength % 4 != 0)
       payloadAndPaddingLength++;
-    if (length != 60 + payloadAndPaddingLength)
+    if (length != 60 + payloadLength && length != 60 + payloadAndPaddingLength)
     {
+      // Note JdJ20181214: The AlixCommunicationProvider does not align the request onto
+      // 32-bit boundary.
+      // And, there is really no need to do so.
+      // So, instead, we make it optional.
       error = true;
       errorMessages.add ("UDP Packet Length and Payload+Padding Length MISMATCH: UDP packet length = " + length
         + ", payload length encoded in packet = " + payloadLength
         + ", calculated payload+padding length = " + payloadAndPaddingLength
-        + " [SHOULD BE EXACTLY 60 LESS THAN UDP PACKET SIZE]!");
+        + " [ONE OF BOTH SHOULD BE EXACTLY 60 LESS THAN UDP PACKET SIZE]!");
     }
     // System.err.println ("Payload:");
     // System.err.println (Arrays.toString (Arrays.copyOfRange (pdu, (int) 60, (int) (60 + payloadLength))));
